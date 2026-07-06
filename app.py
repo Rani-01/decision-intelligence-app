@@ -5,6 +5,12 @@ import pandas as pd
 # Setup
 st.set_page_config(page_title="MetroPulse AI", layout="wide")
 st.title("🏙️ MetroPulse: AI Decision Intelligence for Urban Mobility")
+st.markdown("""
+**Built using the Google Cloud Ecosystem:**
+* **Core Intelligence Engine:** Powered by Gemini via the Gemini Enterprise Agent Platform
+* **Analytics Layer:** Conversational Analytics & In-Context Intelligent Data Analytics
+* **Deployment Workflow:** Serverless Continuous Deployment Pipeline
+""")
 
 # Secure API Key input for judges/testing
 api_key = st.sidebar.text_input("Enter Gemini API Key:", type="password")
